@@ -11,9 +11,10 @@
 	</parent>
 	<groupId>com.springboot</groupId>
 	<artifactId>burgerking</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>burgerking</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
