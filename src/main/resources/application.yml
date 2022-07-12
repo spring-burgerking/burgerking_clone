@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: ${port:8000}
   servlet:
     encoding:
       charset: UTF-8
@@ -60,4 +60,6 @@ spring:
 mybatis:
   mapper-locations:
   - /mappers/*.xml
+  
+  
 
