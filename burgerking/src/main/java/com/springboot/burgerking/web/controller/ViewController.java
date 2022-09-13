@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
 public class ViewController {
-	@GetMapping("/index")
+	@GetMapping({"/", "/index"})
 	public String index() {
 		return "burgerking/index";
 	}
