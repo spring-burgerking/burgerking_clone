@@ -15,13 +15,13 @@ public class CertificationServiceImpl implements CertificationService {
 
 	@Override
 	public void certifiedPhoneNumber(String phoneNumber, String cerNum) {
-		String api_key = "NCSU51TXGVFNWPI2";
-		String api_secret = "RR8DN1BUIP9L6J71DVLANK4FDCXCMCC8";
+		String api_key = "NCSBJXPUVMIGH3DM";
+		String api_secret = "CGJ56VCY5HO6CVVJW9UQOBNVKAG5SBSB";
 		Message coolsms = new Message(api_key, api_secret);
 		
 		HashMap<String, String> params = new HashMap<String, String>();
 		params.put("to", phoneNumber);
-		params.put("from", "01026238452");
+		params.put("from", "01024349616");
 		params.put("type", "SMS");
 		params.put("text", "[버거킹 본인확인] 인증번호 " + "[" + cerNum+ "]" + "를 입력해 주세요.");
 		params.put("app_version", "test app 1.2");
