@@ -13,7 +13,7 @@ const btn_delete_detail = document.querySelector(".btn-delete-detail");
 const btn_delete_nickname = document.querySelector(".btn-delete-nickname");
 const checkbox = document.querySelector(".checkbox");
 const my_modal = document.querySelector("#my_modal");
-const pin_address = document.querySelector(".pin-address");
+/*const pin_address = document.querySelector(".pin-address");*/
 const delivery_name = document.querySelector(".nodata-mydelivery>p>strong>span");
 const modal_close_btn = document.querySelector(".modal-close-btn");
 const modal_registration_btn = document.querySelector(".modal-registration-btn");
@@ -26,6 +26,8 @@ const delivery_list = document.querySelector(".delivery-list");
 let result = document.getElementById('result');
 let addr = '';
 let address_length;
+
+
 inputWidth();
 inputLength();
 inputLong();

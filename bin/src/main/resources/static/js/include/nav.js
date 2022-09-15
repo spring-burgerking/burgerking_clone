@@ -1,4 +1,4 @@
-const nav_open = document.querySelector(".nav-open"  xmlns:th="http://www.thymeleaf.org");
+const nav_open = document.querySelector(".nav-opko" xmlns:th="http://www.thymeleaf.org"  xmlns:th="http://www.thymeleaf.org");
 const nav_menu = document.querySelector(".nav-menu");
 const submenu = document.querySelectorAll(".submenu");
 const menulist = submenu[0].querySelectorAll("li");

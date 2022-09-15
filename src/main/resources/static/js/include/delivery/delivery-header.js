@@ -2,6 +2,7 @@ const delivery_header_name = document.querySelector(".delivery-header-name");
 const header_logout = document.querySelector(".header-logout");
 let user_info;
 $.ajax({
+	async: false,
     type: "post",
     dataType: "text",
     url: "/api/v1/delivery/user-auth",
