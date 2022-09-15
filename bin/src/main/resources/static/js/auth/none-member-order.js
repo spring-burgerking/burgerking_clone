@@ -8,7 +8,7 @@ const password_input = document.querySelectorAll(".password-input");
 
 
 btn_use.onclick = () => {
-    use_contents.classList.toggle("open");
+    use_contents.classList.toggle("open"  xmlns:th="http://www.thymeleaf.org");
 }
 
 input_items[0].onkeyup = (e) => {

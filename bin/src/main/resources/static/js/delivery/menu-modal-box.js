@@ -19,7 +19,7 @@ function loadProductDetail(product_menu_detail, menu_data) {
     for (let i = 0; i < product_menu_detail.length; i++) {
         product_menu_detail[i].onclick = () => {
             modal_full_pop_wrap.classList.add("on");
-            body.style = "overflow: hidden";
+            body.style = "overflow: hidden"  xmlns:th="http://www.thymeleaf.org";
             menu_modal_box.classList.add("on");
             $.ajax({
                 type: "get",
