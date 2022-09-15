@@ -101,7 +101,7 @@ public class ViewController {
 	
 	@GetMapping("/auth/info-change")
 	public String infochange() {
-		return "burgerking/auth/infochange";
+		return "/burgerking/auth/infochange";
 	}
 	
 	@GetMapping("/auth/findUserInfo")
